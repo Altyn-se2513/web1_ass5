@@ -1,10 +1,3 @@
-/* =========================================================
-   Assignment 5 — Advanced JavaScript and DOM Manipulation
-   Book Collection · Altyn Abdinurova
-   Every feature is wrapped in its own IIFE (function () {...})()
-   so its variables do not leak into the global scope.
-   ========================================================= */
- 
 /* Small shared helper: makes text safe before putting it into innerHTML
    (protects the page from HTML/JS injection from external data). */
 function escapeHtml(str) {
